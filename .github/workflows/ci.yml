@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '22'
       - name: Format check
-        run: npm run format
+        run: npm run format:check
       - name: Tests
         run: npm test
       - name: Build smoke

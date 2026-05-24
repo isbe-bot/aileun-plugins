@@ -10,7 +10,8 @@
     "format": "node ./scripts/format.mjs",
     "test": "node --test",
     "build": "node ./scripts/build.mjs",
-    "smoke": "node ./scripts/smoke.mjs"
+    "smoke": "node ./scripts/smoke.mjs",
+    "format:check": "node ./scripts/format.mjs --check"
   },
   "engines": {
     "node": ">=22.0.0"
