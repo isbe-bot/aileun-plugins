@@ -33,7 +33,7 @@ Safety note: **Phase 1 records required secret names only. It never stores secre
 ## Install from source
 
 ```bash
-git clone git@github-isbe:isbe-bot/aileun-plugins.git
+git clone https://github.com/isbe-bot/aileun-plugins.git
 cd aileun-plugins
 npm test
 npm run build

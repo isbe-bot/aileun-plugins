@@ -7,9 +7,11 @@ This guide deploys `aileun-plugins` as a Phase 1 CLI/SQLite ledger tool on a VPS
 ```bash
 sudo mkdir -p /opt/aileun
 sudo chown "$USER":"$USER" /opt/aileun
-git clone git@github-isbe:isbe-bot/aileun-plugins.git /opt/aileun/aileun-plugins
+git clone https://github.com/isbe-bot/aileun-plugins.git /opt/aileun/aileun-plugins
 cd /opt/aileun/aileun-plugins
 ```
+
+For ISBE internal SSH deployments, the equivalent remote is `git@github-isbe:isbe-bot/aileun-plugins.git`.
 
 ## 2. Verify
 

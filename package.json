@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github-isbe/isbe-bot/aileun-plugins.git"
+    "url": "https://github.com/isbe-bot/aileun-plugins.git"
   },
   "homepage": "https://github.com/isbe-bot/aileun-plugins#readme",
   "bugs": {
