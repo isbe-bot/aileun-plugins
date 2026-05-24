@@ -1,0 +1,22 @@
+{
+  "schema_version": "",
+  "plugin_id": "Bad ID",
+  "name": "",
+  "version": "one",
+  "source": {
+    "type": "unsupported",
+    "uri": ""
+  },
+  "description": "",
+  "provides": "tools",
+  "tools": ["ok", ""],
+  "required_permissions": [true],
+  "required_config": "ENGRAM_ENDPOINT",
+  "required_secrets": [""],
+  "health_check": {
+    "type": "",
+    "endpoint": ""
+  },
+  "safe_to_disable": "yes",
+  "rollback_supported": "yes"
+}

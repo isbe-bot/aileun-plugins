@@ -1,0 +1,19 @@
+{
+  "name": "aileun-plugins",
+  "version": "0.1.0",
+  "description": "AILEUN Plugins Manager (Phase 1 baseline)",
+  "type": "module",
+  "bin": {
+    "pluginctl": "./bin/pluginctl.js"
+  },
+  "scripts": {
+    "format": "node ./scripts/format.mjs",
+    "test": "node --test",
+    "build": "node ./scripts/build.mjs",
+    "smoke": "node ./scripts/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "license": "MIT"
+}

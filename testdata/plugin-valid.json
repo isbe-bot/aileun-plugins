@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "plugin_id": "engram.openclaw",
+  "name": "ENGRAM OpenClaw Plugin",
+  "version": "1.0.0",
+  "source": {
+    "type": "local",
+    "uri": "file:///srv/aileun/plugins/engram-openclaw"
+  },
+  "description": "Expose ENGRAM memory tools to OpenClaw.",
+  "provides": ["tools", "memory_corpus"],
+  "tools": ["engram_search", "engram_get", "engram_curate"],
+  "required_permissions": ["memory.read", "memory.write"],
+  "required_config": ["ENGRAM_ENDPOINT"],
+  "required_secrets": ["ENGRAM_API_KEY"],
+  "health_check": {
+    "type": "http",
+    "endpoint": "http://127.0.0.1:8765/v1/health"
+  },
+  "safe_to_disable": true,
+  "rollback_supported": true
+}
