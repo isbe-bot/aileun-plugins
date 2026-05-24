@@ -5,3 +5,14 @@ runtime/
 .DS_Store
 coverage/
 .nyc_output/
+.env
+.env.*
+.secrets/
+*.key
+*.pem
+*.db-*
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+dist/
+*.log

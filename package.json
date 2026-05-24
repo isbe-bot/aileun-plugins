@@ -1,7 +1,7 @@
 {
   "name": "aileun-plugins",
   "version": "0.1.0",
-  "description": "AILEUN Plugins Manager (Phase 1 baseline)",
+  "description": "Local-first plugin manifest ledger for AI/VPS extension governance.",
   "type": "module",
   "bin": {
     "pluginctl": "./bin/pluginctl.js"
@@ -15,5 +15,22 @@
   "engines": {
     "node": ">=22.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github-isbe/isbe-bot/aileun-plugins.git"
+  },
+  "homepage": "https://github.com/isbe-bot/aileun-plugins#readme",
+  "bugs": {
+    "url": "https://github.com/isbe-bot/aileun-plugins/issues"
+  },
+  "keywords": [
+    "aileun",
+    "openclaw",
+    "mission-control",
+    "vps",
+    "sqlite",
+    "local-first"
+  ],
+  "author": "ISBE"
 }
